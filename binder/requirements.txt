@@ -1,3 +1,10 @@
-matplotlib
-numpy
-scikit-learn
+# always required!
+#numpy==1.19.5 # from Ganymede
+numpy==1.24.1 # used for the actual model code/weights
+pandas==1.1.5
+# Visualization frameworks
+matplotlib==3.7.5 # Last version compatible with Python 3.8
+#matplotlib==3.3.4 # from Ganymede
+
+# Stats stuff
+scikit-learn==1.1 # from Ganymede
